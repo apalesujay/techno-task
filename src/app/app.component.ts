@@ -7,5 +7,5 @@ import * as moment from 'moment';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent { 
-  title = 'Assignment';
+  title = 'Angular4, HTML5, CSS3 & Bootstrap';
  }
