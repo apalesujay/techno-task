@@ -1,0 +1,19 @@
+.navbar {
+    background-color:rgba(63, 81, 181, 0.7);
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar .dropdown-menu {
+    background-color: rgba(63, 81, 181, 0.7);
+}
+.navbar-brand {
+    color: white;
+}
+
+.nav a {
+    color: white;
+}

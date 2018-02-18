@@ -1,0 +1,31 @@
+.panel-default {
+    border-color: rgba(63, 81, 181, 0.7);
+    border-radius: 0px;
+}
+
+.panel-heading {
+    background-color: rgba(63, 81, 181, 0.7);
+    color: white;
+    border-radius: 0px;
+}
+
+.panel-body {
+    color: rgba(63, 81, 181, 0.7);
+}
+
+.btn-default {
+    background-color: rgba(63, 81, 181, 0.7);
+    color: white;
+    border-color: rgba(63, 81, 181, 0.7);
+    border-radius: 0%;
+}
+
+.form-control {
+    border-color: rgba(63, 81, 181, 0.7);
+    border-radius: 0%;
+    color: rgba(63, 81, 181, 0.7);
+}
+
+::placeholder {
+    color: rgba(63, 81, 181, 0.7);
+}

@@ -1,0 +1,39 @@
+<!-- .container-fluid -->
+<div class="container-fluid">
+  <!-- .panel -->
+  <div class="panel panel-default">
+    <!-- .panel-heading -->
+    <div class="panel-heading">
+      <h3 class="panel-title">Data</h3>
+    </div>
+    <!-- /.panel-heading -->
+    <!-- .pnael-body -->
+    <div class="panel-body">
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>DOB</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let person of persons; let i=index">
+              <td>{{ i+1 }}</td>
+              <td>{{ person.name }}</td>
+              <td>{{ person.dob }}</td>
+              <td *ngIf="person">
+                <button class="btn btn-default" (click)="onDelete(i)">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- /.panel-body -->
+  </div>
+  <!-- /.panel -->
+</div>
+<!-- /.container-fluid -->

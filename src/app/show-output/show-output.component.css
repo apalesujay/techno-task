@@ -1,0 +1,21 @@
+.panel-default {
+    border-color: rgba(63, 81, 181, 0.7);
+    border-radius: 0px;
+}
+
+.panel-heading, .panel-footer {
+    background-color: rgba(63, 81, 181, 0.7);
+    color: white;
+    border-radius: 0px;
+}
+
+.panel-body {
+    color: rgba(63, 81, 181, 0.7);
+}
+
+.table, th, td  {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}

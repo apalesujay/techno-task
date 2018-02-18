@@ -1,0 +1,34 @@
+<!-- .container-fluid -->
+<div class="container-fluid">
+  <!-- .panel -->
+  <div class="panel panel-default">
+    <!-- .panel-heading -->
+    <div class="panel-heading">
+      <h3 class="panel-title">Fill the form</h3>
+    </div>
+    <!-- /.panel-heading -->
+    <!-- .panel-body -->
+    <div class="panel-body">
+      <!-- form -->
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" #nameInput>
+        </div>
+        <!-- <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" #emailInput>
+        </div> -->
+        <div class="form-group">
+          <label for="dob">DOB</label>
+          <input type="date" class="form-control" id="dob" placeholder="Enter your DOB" #dobInput>
+        </div>
+        <button type="submit" class="btn btn-default" (click)="onSubmit()">Submit</button>
+      </form>
+      <!-- /form -->
+    </div>
+    <!-- /.panel-body -->
+  </div>
+  <!-- /.panel -->
+</div>
+<!-- /.container-fluid -->
